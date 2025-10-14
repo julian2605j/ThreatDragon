@@ -1,0 +1,9 @@
+services:
+  threatdragon:
+    container_name: threatdragon
+    ports: 
+      - "8080:8080"
+    image: owasp/threat-dragon:v2.5.0
+    env_file: ./config.env
+    volumes: 
+      - "./config.env:/app/.env:ro"
