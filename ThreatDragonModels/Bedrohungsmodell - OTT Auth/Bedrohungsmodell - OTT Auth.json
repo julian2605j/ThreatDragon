@@ -2235,6 +2235,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 14,
             "ports": {
               "groups": {
                 "top": {
@@ -2318,7 +2319,6 @@
               ]
             },
             "id": "396d1704-3564-4f80-ab95-9b998621dc96",
-            "zIndex": 14,
             "data": {
               "type": "tm.Actor",
               "name": "Management",
@@ -2352,6 +2352,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 15,
             "ports": {
               "groups": {
                 "top": {
@@ -2435,7 +2436,6 @@
               ]
             },
             "id": "b52594d4-7bc4-4b96-81fd-eacb189bcfa6",
-            "zIndex": 15,
             "data": {
               "type": "tm.Process",
               "name": "SIEM-System\n",
@@ -2475,6 +2475,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 16,
             "ports": {
               "groups": {
                 "top": {
@@ -2558,7 +2559,6 @@
               ]
             },
             "id": "d0846896-c678-44b6-ad5e-24684a231594",
-            "zIndex": 16,
             "data": {
               "type": "tm.Store",
               "name": "SIEM-DB",
@@ -2596,6 +2596,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 17,
             "ports": {
               "groups": {
                 "top": {
@@ -2679,7 +2680,6 @@
               ]
             },
             "id": "cad09414-d771-4247-b11b-864b42f26583",
-            "zIndex": 17,
             "data": {
               "type": "tm.Process",
               "name": " Allsecure Mobile \nPhone OTT\nService",
